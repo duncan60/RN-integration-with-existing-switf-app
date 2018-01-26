@@ -15,21 +15,22 @@
 
 #### RN
 
+透過 AppRegistry.registerComponent 方法， swift 可取得 components 添加到 ViewController
+
 ```
 # js/index.js
 AppRegistry.registerComponent('AddRatingApp', () => AddRatingApp);
 
 ```
 
-透過 AppRegistry.registerComponent 方法， swift 可取得 components 添加到 ViewController
-
-
 #### swift
 
 ```
 # ios/Mixer/AddRatingViewController.swif
 
-override func viewDidLoad() {
+import React
+class AddRatingViewController: UIViewController {
+  override func viewDidLoad() {
     super.viewDidLoad()
     
     // TODO: Add React View
@@ -45,7 +46,7 @@ override func viewDidLoad() {
     // TODO: Layout React View
     addRatingView.frame = self.view.bounds
   }
-
+}
 ```
 
 ## Swift & RN 溝通與事件增聽
