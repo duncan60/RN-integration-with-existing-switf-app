@@ -29,6 +29,7 @@ AppRegistry.registerComponent('AddRatingApp', () => AddRatingApp);
 # ios/Mixer/AddRatingViewController.swif
 
 import React
+
 class AddRatingViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
