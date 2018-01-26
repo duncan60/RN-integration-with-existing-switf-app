@@ -73,3 +73,17 @@ ios/*.xcworkspace
 ios/*.xccheckout
 
 
+js/node_modules/
+js/npm-debug.log*
+js/yarn-debug.log*
+js/yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+
