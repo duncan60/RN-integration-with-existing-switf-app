@@ -46,6 +46,9 @@ ios/.build/
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # Pods/
+ios/Pods
+ios/*.lock
+ios/xcschemes
 
 # Carthage
 #
@@ -65,10 +68,8 @@ ios/fastlane/report.xml
 ios/fastlane/Preview.html
 ios/fastlane/screenshots
 ios/fastlane/test_output
-#CocoaPods
-ios/Pods
-ios/*.lock
+
 ios/*.xcworkspace
-ios/*.xcodeproj
-ios/xcschemes
+ios/*.xccheckout
+
 
