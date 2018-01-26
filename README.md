@@ -10,6 +10,21 @@
 
 * [#16192](https://github.com/facebook/react-native/pull/16192)
 
+## Build Setup
+
+```
+# install react-native dependencies, cd js/
+yarn
+
+# install swift dependencies,  cd ios/
+pod install
+
+# run react-native, cd js/
+yarn run start
+
+# run swift app, Xcode open ios/Mixer/Mixer.xcworkspace, run ios simulators
+```
+
 ## Swift 取得 RN Components
 
 #### RN
