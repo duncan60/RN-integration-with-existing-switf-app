@@ -70,7 +70,7 @@ RCT_EXTERN_METHOD(dismissPresentedViewController:(nonnull NSNumber *)reactTag)
 
 #### RN
 
-RN 中提供 NativeModules， 可以取得 Switf 中的 RCTEventEmitter Modules
+RN NativeModules 可以取得 Switf 中的 RCTEventEmitter Modules
 
 ```
 # js/AddRatingApps.js
