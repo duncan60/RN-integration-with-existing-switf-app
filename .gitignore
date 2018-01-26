@@ -1,10 +1,10 @@
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
-
+.DS_Store
 ## Build generated
-build/
-DerivedData/
+ios/build/
+ios/DerivedData/
 
 ## Various settings
 *.pbxuser
@@ -37,7 +37,7 @@ playground.xcworkspace
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
 # Packages/
 # Package.pins
-.build/
+ios/.build/
 
 # CocoaPods
 #
@@ -52,7 +52,7 @@ playground.xcworkspace
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
 # Carthage/Checkouts
 
-Carthage/Build
+ios/Carthage/Build
 
 # fastlane
 #
@@ -61,7 +61,14 @@ Carthage/Build
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/#source-control
 
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
+ios/fastlane/report.xml
+ios/fastlane/Preview.html
+ios/fastlane/screenshots
+ios/fastlane/test_output
+#CocoaPods
+ios/Pods
+ios/*.lock
+ios/*.xcworkspace
+ios/*.xcodeproj
+ios/xcschemes
+

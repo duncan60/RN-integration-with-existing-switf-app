@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>identifier</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>RWDevCon After Party</string>
+		<key>detail</key>
+		<string>Meet up after the conference to share ideas and mingle with attendees and those awesome instructors.</string>
+		<key>location</key>
+		<string>The Westin Alexandria Hotel, Alexandria VA</string>
+		<key>thumbnail</key>
+		<string>rwdevcon_social</string>
+		<key>attendeeRating</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<integer>3</integer>
+		<key>name</key>
+		<string>Soccer Viewing Party</string>
+		<key>detail</key>
+		<string>Chill out and watch the World Cup semi-final in the comfort of the mall with fellow enthusiasts.</string>
+		<key>location</key>
+		<string>Brasilia Shopping, Asa Norte Brasilia</string>
+		<key>thumbnail</key>
+		<string>chill_brasil_mixer</string>
+		<key>attendeeRating</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>iOS Developers Meetup</string>
+		<key>detail</key>
+		<string>Learn everything you need to know about Swift</string>
+		<key>location</key>
+		<string>Fort Mason, San Francisco CA</string>
+		<key>thumbnail</key>
+		<string>devgarage_hangout</string>
+		<key>attendeeRating</key>
+		<integer>4</integer>
+	</dict>
+</array>
+</plist>
